@@ -7,7 +7,7 @@ function Home() {
         <div className="home">
             <div className="home__container">
                 <img className="home__image__one" alt="Home " src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/BestOfTech/September/Bes_of-tech_Sept_1500x600._CB405702641_.jpg"></img>
-
+                {/* <div className="home__container__imageseparator"> */}
                 <div className="home__product__row">
 
                     <Product
@@ -63,6 +63,7 @@ function Home() {
 
 
                 </div>
+                {/* </div> */}
             </div>
         </div>
     )

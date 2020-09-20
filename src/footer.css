@@ -1,0 +1,38 @@
+.footer{
+    background-color: rgb(8, 6, 20);
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    z-index:1;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0;
+}
+
+.footer__column{
+
+    flex:0.33;
+    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 5px 10px;
+    overflow: hidden;
+    
+}
+
+.footer__column > h2{
+    color:rgb(243, 160, 51);
+    display: flex;
+    justify-content: center;
+}
+
+.footer__column > p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer__column>p>a{
+    color:rgb(243, 160, 51) ;
+}

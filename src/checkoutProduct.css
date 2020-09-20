@@ -11,12 +11,17 @@
 .checkoutProducts__info > button{
     
     border: 1px solid;
-    margin-top: 10px;
-    background : rgb(212, 154, 45);
+    margin-top: 5px;
+    /* background : rgb(212, 154, 45); */
+    background : rgb(243, 160, 51);
     border-radius: 2px;
     border-color:rgb(231, 126, 40);
     color:rgb(41, 39, 39);
 }
+/* 
+.checkoutProducts__info>button:{
+
+} */
 
 .checkoutProducts__image{
     object-fit: contain;

@@ -1,0 +1,23 @@
+.app__home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.app__checkout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.app__payment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.app__orders{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
