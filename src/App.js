@@ -14,6 +14,11 @@ import { useStateValue } from "./StateProvider";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
+// testing google universal analytics 
+import ReactGA from 'react-ga'
+
+ReactGA.initialize( 'UA-177467362-1', ["options"]);
+
 // LoadStripe has to called outside the render function 
 //else it will be created every time we render app .
 const promice = loadStripe("pk_test_51HSFjhCUcvvuS7GM9aQHrcuYvV5NGXG1eXnAWIE23Y35rcaD8UNwK8saHYG5v2PuGIZLfZctMb22A2xQwYXedeC4003FZq4zBB");
